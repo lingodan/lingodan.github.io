@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+title: 金鳞笔记
+subtitle: '遇到问题，解决问题'
+description: '学习工作笔记'
+keywordsn:
+author: Golden Forest
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
+url: http://lingodan.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
