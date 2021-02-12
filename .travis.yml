@@ -1,6 +1,5 @@
 sudo: false
 language: node_js
-GITHUB_TOKEN: 413ce2f871afecfcfa8decff4f09d6873a81e71f
 node_js:
   - 12 # use nodejs v10 LTS
 cache: npm
@@ -19,7 +18,7 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: ${GITHUB_TOKEN} 
+  github-token: $GH_TOKEN 
   keep-history: true
   on:
     branch: master
