@@ -155,6 +155,7 @@ search:
 comment:
     type: gitalk
     client_id: e1f7e44317a60c6abad1
+    id: location.pathname
     client_secret: 6fa0951702b3add0c2a654a848be157ebae22366
     repo: comment-repo 
     owner: lingodan
@@ -164,7 +165,7 @@ comment:
     distraction_free_mode: false    # Optional
     pager_direction: last           # Optional
     create_issue_manually: false    # Optional
-    proxy:                          # Optional
+    proxy: 'https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token'                         # Optional
     flip_move_options:              # Optional
     enable_hotkey: true             # Optional
     language: zh-CN 
