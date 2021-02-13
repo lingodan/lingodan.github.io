@@ -156,7 +156,7 @@ comment:
     type: gitalk
     client_id: e1f7e44317a60c6abad1
     client_secret: 6fa0951702b3add0c2a654a848be157ebae22366
-    repo: my-hexo-comment 
+    repo: comment-repo 
     owner: lingodan
     admin:
         - lingodan
