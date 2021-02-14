@@ -15,11 +15,11 @@ tags:
 
 * 安装Hexo
 
-  * ```shell
-    npm install -g hexo-cli
-    ```
+  ```shell npm install -g hexo-cli
+  npm install -g hexo-cli
+  ```
 
-    
+  
 
 ### 基础指令
 
@@ -41,6 +41,8 @@ $ npm install
 
 ```
 
+
+
 #### 常用指令
 
 ```shell
@@ -55,7 +57,7 @@ hexo server # 启动服务器
 
 [Icarus](https://github.com/ppoffice/hexo-theme-icarus)
 
-![](./创建github博客工作流/icarus展示.png)
+![](创建github博客工作流/icarus展示.png)
 
 1. 下载主题到本地
 
@@ -81,13 +83,13 @@ hexo server # 启动服务器
 
 ##### 创建OAuth Apps
 
-![image-20210214152215625](./创建github博客工作流/hexo-repo.png)
+![hexo-repo](创建github博客工作流/hexo-repo.png)
 
-![image-20210214152251595](./创建github博客工作流/hexo-repo1.png)
+![hexo-repo1](创建github博客工作流/hexo-repo1.png)
 
 ##### 创建评论仓库
 
-![image-20210214152526087](./创建github博客工作流/comment-repo2.png)
+![hexo-repo2](创建github博客工作流/comment-repo2.png)
 
 ##### 配置comment
 
@@ -97,7 +99,7 @@ hexo server # 启动服务器
 proxy: 'https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token'
 ```
 
-![image-20210214154358412](./创建github博客工作流/comment配置.png)
+![comment配置](创建github博客工作流/comment配置.png)
 
 ## github
 
@@ -109,7 +111,7 @@ proxy: 'https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_tok
 
 项目名称为**lingodan.github.io**,自行创建需要更换为自己的用户名；
 
-![image-20210214153159771](./创建github博客工作流/gh-pages-setting.png)
+![gh-pages-setting](创建github博客工作流/gh-pages-setting.png)
 
 ## Travis-CI
 
@@ -149,8 +151,8 @@ proxy: 'https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_tok
 
 3. 申请Github Personal access tokens 
 
-   ![image-20210214153934908](./创建github博客工作流/github-token.png)
+   ![github-token](创建github博客工作流/github-token.png)
 
-4. Travis 页面配置GH_TOKEN![image-20210214154042401](./创建github博客工作流/travis_gh_token.png)
+4. Travis 页面配置GH_TOKEN![travis_gh_token](创建github博客工作流/travis_gh_token.png)
 
 以上完成Travis对于项目的配置。当Github项目更新时，Travis会收到任务，触发编译任务。
