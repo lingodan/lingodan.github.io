@@ -1,7 +1,8 @@
 ---
 title: 创建github博客工作流
 date: 2021-02-14 16:03:27
-tags:
+tags: [hexo,npm]
+categories: 日志博客
 ---
 搭建博客说明
 

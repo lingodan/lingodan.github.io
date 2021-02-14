@@ -103,7 +103,7 @@ navbar:
         Archives: /archives
         Categories: /categories
         Tags: /tags
-        About: /about
+#        About: /about
     # Links to be shown on the right of the navigation bar
     links:
         Download on GitHub:
@@ -293,14 +293,14 @@ widgets:
         position: left
         type: tags
     # Google FeedBurner email subscription widget configurations
-    -
+#    -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: subscribe_email
+#        position: left
+#        type: subscribe_email
         # Hint text under the email input
-        description: 
+#        description: 
         # Feedburner ID
-        feedburner_id: ''
+#        feedburner_id: ''
     # Google AdSense unit configurations
 #    -
         # Where should the widget be placed, left sidebar or right sidebar
