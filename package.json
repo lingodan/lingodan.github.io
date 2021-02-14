@@ -15,7 +15,7 @@
     "bulma-stylus": "^0.8.0",
     "gitalk": "^1.7.0",
     "hexo": "^5.0.0",
-    "hexo-asset-image": "^1.0.0",
+    "hexo-asset-image": "github:CodeFalling/hexo-asset-image",
     "hexo-component-inferno": "^0.10.5",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
@@ -28,6 +28,7 @@
     "hexo-server": "^2.0.0",
     "hexo-theme-landscape": "^0.0.3",
     "inferno": "^7.4.7",
-    "inferno-create-element": "^7.4.7"
+    "inferno-create-element": "^7.4.7",
+    "momnet": "^2.29.1"
   }
 }
