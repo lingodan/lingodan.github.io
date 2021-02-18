@@ -4,10 +4,6 @@ date: 2021-02-15 20:22:58
 tags: ['docker']
 ---
 
-# Docker Swarm
-
-
-
 ## Swarm是啥？
 
 根据官网上的说明，*Swarm是当前Docker版本一种原生的管理Docker引擎集群的模式。使用Docker CLI可以在swarm中部署应用、管理Swarm的行为。*
